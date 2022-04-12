@@ -15,7 +15,7 @@ namespace api.Controllers
         [HttpGet]
         public List<string> Get()
         {
-            return new List<string> { "TEST1", "TEST2" };
+            return new List<string> { "TEST1", "TEST2", "TEST 3"};
         }
 
         // GET: api/Stores/5
